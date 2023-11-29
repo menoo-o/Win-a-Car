@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1600px; height: 100vh;
+  background: url(./bg.jpg) center/ cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+}
+
+.heading{
+  position: absolute;
+  top: 0;
+}
+
+h1{
+  color: white;
+  font-size: 4rem;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
